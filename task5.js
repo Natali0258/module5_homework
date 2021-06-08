@@ -4,6 +4,6 @@ const arNum = [1, 5, -7, "A", true, 99];
 console.log("количество элементов - " + arNum.length);
 
 arNum.forEach(function (item, index, array) {
-  index = index + 1;
   console.log("элемент №" + index + " - " + item);
+  index = index + 1;
 });

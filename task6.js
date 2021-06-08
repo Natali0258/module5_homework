@@ -8,13 +8,13 @@ let result = 0;
 while (i < arr.length - 1) {
   if (arr[i] === arr[arr.length - 1]) {
     i = i + 1;
-    result = 1;
+    result = true;
   } else {
-    result = 2;
+    result = false;
     i = arr.length;
   }
 }
-if (result === 1) {
+if (result === true) {
   console.log("Элементы в массиве одинаковые");
 } else {
   console.log("Элементы в массиве не одинаковые");
