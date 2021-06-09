@@ -20,7 +20,7 @@ arr.forEach(function (item, index, array) {
       }
     }
   } else {
-    notNumber = notNumber++;
+    notNumber++;
   }
 });
 console.log(`количество чётных элементов в массиве - ` + quantityEven);
